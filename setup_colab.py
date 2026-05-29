@@ -11,7 +11,7 @@ from pathlib import Path
 GITHUB_USERNAME = "hoagannhh"
 REPO_NAME       = "Seminar-Pattern-Recognition"
 BRANCH          = "main"
-GITHUB_TOKEN    = "ghp_xxxxxxxxxxxx"   # ← paste token vào đây
+GITHUB_TOKEN    = "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"   # ← paste token vào đây
 # ────────────────────────────────────────────────────────────
 
 PROJECT_ROOT = Path(f"/content/{REPO_NAME}")
