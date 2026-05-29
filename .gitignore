@@ -30,3 +30,6 @@ env/
 # --- OS ------------------------------------------------------
 .DS_Store
 Thumbs.db
+
+# --- Setup_colab ---
+setup_colab.py
