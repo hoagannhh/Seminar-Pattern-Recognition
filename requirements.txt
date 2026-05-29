@@ -1,0 +1,30 @@
+# ============================================================
+#  requirements.txt  —  wikicities-population
+#
+#  Colab đã có sẵn: numpy, pandas, matplotlib, scikit-learn,
+#                   scipy, torch, tensorflow
+#  Chỉ cài thêm những gì Colab KHÔNG có sẵn:
+#
+#  Cài trong notebook:
+#    !pip install -r requirements.txt -q
+# ============================================================
+
+# --- SPARQL --------------------------------------------------
+SPARQLWrapper>=2.0.0
+
+# --- Feature Engineering -------------------------------------
+category-encoders>=2.6.0
+
+# --- Modeling & Explainability -------------------------------
+xgboost>=2.0.0
+lightgbm>=4.0.0
+shap>=0.44.0
+
+# --- Utilities -----------------------------------------------
+python-dotenv>=1.0.0
+tqdm>=4.66.0
+joblib>=1.3.0
+
+# --- Visualization -------------------------------------------
+seaborn>=0.13.0
+plotly>=5.18.0

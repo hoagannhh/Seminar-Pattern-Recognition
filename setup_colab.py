@@ -11,7 +11,7 @@ from pathlib import Path
 GITHUB_USERNAME = "hoagannhh"
 REPO_NAME       = "Seminar-Pattern-Recognition"
 BRANCH          = "main"
-GITHUB_TOKEN    = ""  
+GITHUB_TOKEN    = "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"  
 # ────────────────────────────────────────────────────────────
 
 PROJECT_ROOT = Path(f"/content/{REPO_NAME}")
