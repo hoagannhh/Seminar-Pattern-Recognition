@@ -5,8 +5,9 @@
 # --- Bảo mật -------------------------------------------------
 .env
 
-# --- Data (file lớn, lưu local hoặc Drive) -------------------
-data/raw/
+# --- Data ---------------------------------------------------
+# data/raw/ được track để Colab tự pull về (file < 1MB)
+data/raw/*.Zone.Identifier
 data/processed/
 data/features/
 
