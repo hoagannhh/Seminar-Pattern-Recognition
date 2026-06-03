@@ -197,7 +197,10 @@ def build_feature_matrix(df: pd.DataFrame,
         cols += [c for c in tre_cols if c in df.columns]
 
     X = df[cols].copy()
+    # Bỏ cột toàn NaN (imputer không xử lý được, vd: foundingYear thiếu hoàn toàn)
+    X = X.dropna(axis=1, how="all")
     for col in X.columns:
         if X[col].isna().any():
-            X[col] = X[col].fillna(X[col].median())
+            med = X[col].median()
+            X[col] = X[col].fillna(med if pd.notna(med) else 0)
     return X
