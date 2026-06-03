@@ -6,7 +6,7 @@
 #  Chỉ cài thêm những gì Colab KHÔNG có sẵn:
 #
 #  Cài trong notebook:
-#    !pip install -r requirements.txt -q
+#    %run /content/Seminar-Pattern-Recognition/setup_colab.py
 # ============================================================
 
 # --- SPARQL --------------------------------------------------
