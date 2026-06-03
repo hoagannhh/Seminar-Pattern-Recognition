@@ -7,7 +7,6 @@
 #    2. Mount Google Drive (tuỳ chọn nhưng khuyến nghị)
 #    3. Sync data/ models/ reports/ từ Drive → /content/
 #    4. Cài thư viện
-#
 #  Để lưu kết quả về Drive sau mỗi notebook, gọi:
 #    from setup_colab import sync_to_drive
 #    sync_to_drive()
